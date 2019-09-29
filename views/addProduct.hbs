@@ -1,0 +1,10 @@
+<main>
+    {{#if addProductPage}}
+        <h1>Welcome to Add Products Page</h1>
+    {{/if}}
+
+    <form method="POST" action="/admin/add-product">
+        <input type="text" name="title">
+        <button type="submit">Add Product</button>
+    </form>
+</main>
